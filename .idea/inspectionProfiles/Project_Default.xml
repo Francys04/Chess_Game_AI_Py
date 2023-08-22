@@ -28,3 +28,29 @@
     </inspection_tool>
   </profile>
 </component>
+
+<!--<component name="InspectionProjectProfileManager">: This seems to define a component related to managing inspection profiles for the project. It indicates that this XML section deals with configuring inspections.
+
+<profile version="1.0">: This specifies the version of the inspection profile being used (version 1.0 in this case). An inspection profile is a collection of settings for different code analysis tools.
+
+<option name="myName" value="Project Default" />: This line represents a custom option for the inspection profile. It sets the name of the profile to "Project Default."
+
+<inspection_tool> elements: These elements define individual code analysis tools (inspections) and their configurations within the profile.
+
+Each <inspection_tool> element has the following attributes:
+
+class: Indicates the class of the inspection tool being configured.
+enabled: Specifies whether the inspection tool is enabled (set to "true" or "false").
+level: Indicates the severity level of the issues reported by this inspection tool (e.g., "WEAK WARNING," "WARNING").
+enabled_by_default: Specifies whether the inspection tool is enabled by default (set to "true" or "false").
+Inside each <inspection_tool> element, there may be <option> elements to configure specific settings for that inspection tool. These settings might determine how the inspection tool behaves.
+
+The specific inspection tools and their configurations within the profile are as follows:
+
+PyChainedComparisonsInspection: This inspection tool is configured to be enabled and set at a "WEAK WARNING" level. It also has an option named "ignoreConstantInTheMiddle" set to "true."
+
+PyPep8Inspection: This inspection tool is enabled at a "WEAK WARNING" level. It has an option named "ignoredErrors," which contains a list of ignored error codes (e.g., "W391").
+
+PyPep8NamingInspection: Similar to the previous inspection, this one is enabled at a "WEAK WARNING" level. It also has an option named "ignoredErrors," which contains a list of ignored naming error codes (e.g., "N801," "N802").
+
+PyUnresolvedReferencesInspection: This inspection tool is enabled at a "WARNING" level. It has an option named "ignoredIdentifiers," which contains a list of ignored unresolved reference identifiers (e.g., "int.getitem").-->

@@ -6,3 +6,14 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
+
+<!--<?xml version="1.0" encoding="UTF-8"?>: This declaration states that the document is an XML file and is encoded using UTF-8.
+
+<project version="4">: This element defines the start of a project configuration. The version attribute is set to "4," indicating that the project configuration is using version 4 of the configuration format.
+
+<component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />: This element describes the project's root management configuration, including the project's Python interpreter settings.
+
+name="ProjectRootManager": Indicates that this configuration relates to the root management of the project.
+version="2": Specifies the version of the ProjectRootManager configuration.
+project-jdk-name="Python 3.10": This attribute specifies the name of the Python development kit (Python interpreter) associated with the project. In this case, it's "Python 3.10."
+project-jdk-type="Python SDK": Indicates that the associated development kit is of type "Python SDK," which means it's a software development kit for Python programming.---!>
